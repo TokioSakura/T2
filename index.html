@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T2- Three.js</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <div id="hud">
+    <div id="score">Distancia: 0 m</div>
+    <div id="coins">Monedas: 0 / 40</div>
+    <div id="best">Récord: 0 m</div>
+  </div>
+  <div id="overlay">
+    <h1 id="title">BOULDER ESCAPE</h1>
+    <p id="subtitle">¡Escapa de la roca gigante, esquiva los obstáculos y junta 40 monedas para ganar!</p>
+    <p id="keys">Mover: <b>A / D</b> o <b>← / →</b></p>
+    <p id="prompt">Presiona <b>ESPACIO</b> para comenzar</p>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
